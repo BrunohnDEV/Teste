@@ -1,0 +1,19 @@
+import webbrowser
+import time
+
+print("Abrindo Google...")
+webbrowser.open("https://www.google.com")
+
+time.sleep(2)
+
+print("Abrindo YouTube...")
+webbrowser.open("https://www.youtube.com")
+
+time.sleep(2)
+
+print("Abrindo curso de Python...")
+webbrowser.open(
+    "https://www.youtube.com/results?search_query=curso+de+python"
+)
+
+print("Tudo aberto!")
